@@ -14,12 +14,42 @@ Es por ello que un grupo de prestigiosos entomólogos han construido un ecosiste
 #### Overview: the dataset and challenge
 Se emplearán dos datasets:
 
-Training
+#### Training
 El primero contiene datos de las mediciones de los sensores, el tiempo de las mediciones y el tipo de insecto identificado.
 
----
-**NOTE**
+```
+El dataset de clientes 'train.csv' contiene las siguientes variables:
 
-It works with almost all markdown flavours (the below blank line matters).
+* Hour: Hora a la que se ha hecho la medición.
 
----
+* Minutes: Minutos en los que se ha realizado la medición.
+
+* Sensor_alpha: Posición del insecto al sensor alpha.
+
+* Sensor_beta: Posición del insecto al sensor beta.
+
+* Sensor_gamma: Posición del insecto al sensor gamma.
+
+* Sensor_alpha_plus: Posición del insecto al sensor alpha+.
+
+* Sensor_beta_plus: Posición del insecto al sensor beta+.
+
+* Sensor_gamma_plus: Posición del insecto al sensor gamma+.
+
+* Insect: Categoría de insecto.
+
+0 -> Lepidoptero
+1 -> Himenoptera
+2 -> Diptera
+```
+
+##### Testing
+El dataset de clientes 'test_x.csv' contiene todas las variables excepto la variable target
+
+
+
+### GOOGLE COLAB
+
+Se edito el jupyter notebook en Google Colab para evitar la instalación de librerías en un archivo requirements.txt en un enviroment de python o anaconda o en un contenedor de docker. 
+
+También se decidió usar .ipynb en vez de scripts .py ya que el formato .ipynb me permite añadir texto markdown y explicar de la mejor manera el código. 
