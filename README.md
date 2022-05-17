@@ -53,3 +53,15 @@ El dataset de clientes 'test_x.csv' contiene todas las variables excepto la vari
 Se edito el jupyter notebook en Google Colab para evitar la instalación de librerías en un archivo requirements.txt en un enviroment de python o anaconda o en un contenedor de docker. 
 
 También se decidió usar .ipynb en vez de scripts .py ya que el formato .ipynb me permite añadir texto markdown y explicar de la mejor manera el código. 
+
+
+## Getting Started
+Presionar en Github el archivo **Alejandro_Marcano_JOBarcelona_’22_|_Data_Science.ipynb** y luego el botón que dice **Open in Colab**
+
+![Alt Text](images/colab1.png)
+
+Una vez abierto el notebook en Google Colab, presiona el icono de la carpeta en el menu izquierdo e importa los datasets que se encuentran presionando el botón
+
+![Alt Text](images/colab2.png)
+
+## Resultados
