@@ -63,5 +63,3 @@ Presionar en Github el archivo **Alejandro_Marcano_JOBarcelona_’22_|_Data_Scie
 Una vez abierto el notebook en Google Colab, presiona el icono de la carpeta en el menu izquierdo e importa los datasets que se encuentran presionando el botón
 
 ![Alt Text](images/colab2.png)
-
-## Resultados
